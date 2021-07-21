@@ -2,3 +2,4 @@
 node_modules
 yarn-error.log
 production-server/
+workspace.code-workspace
