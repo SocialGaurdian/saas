@@ -24,12 +24,18 @@ Check out projects built with the help of this open source app. Feel free to add
 
 ## Contents
 
+- [SaaS Boilerplate](#saas-boilerplate)
+- [Live demo:](#live-demo)
+- [Showcase](#showcase)
+- [Contents](#contents)
 - [Features](#features)
-- [Run locally](#running-api-locally)
-- [Deploy](#deploy-with-heroku)
+- [Local](#local)
+    - [Local setup(mac):](#local-setupmac)
+    - [Running `api` locally:](#running-api-locally)
+    - [Running `app` locally:](#running-app-locally)
+- [Deploy with Heroku](#deploy-with-heroku)
 - [Built with](#built-with)
 - [Screenshots](#screenshots)
-- [Showcase](#showcase)
 - [Contributing](#contributing)
 - [Team](#team)
 - [License](#license)
@@ -66,6 +72,14 @@ Check out projects built with the help of this open source app. Feel free to add
   - update card information,
   - verified Stripe webhook for failed payment for subscription.
 
+## Local
+
+#### Local setup(mac):
+- Install mongodb: 
+  ```brew tap mongodb/brew```
+  ```brew install mongodb-community@5.0```
+- Starting mongodb
+  ```mongod --config /usr/local/etc/mongod.conf```
 
 #### Running `api` locally:
 
