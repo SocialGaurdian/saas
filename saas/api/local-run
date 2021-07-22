@@ -1,0 +1,12 @@
+yarn and npm version changes
+
+n x.x.x
+
+sudo yarn set version 1.22.5
+
+
+sudo apt-get install docker.io
+running mongo with docker
+sudo docker run -d  --name mongo-on-docker  -p 27888:27017 -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret mongo 
+MONGO_URL='mongodb://mongoadmin:secret@localhost:27888/?authSource=admin'
+MONGO_URL_TEST='mongodb://mongoadmin:secret@localhost:27888/?authSource=admin'
